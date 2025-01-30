@@ -3,8 +3,8 @@
 
 # Default grid sizes for different test types
 SINGLE_ONE_GRID_SIZE ?= 5x3
-MULTIPLE_MINES_GRID_SIZE ?= 12x12
-GRID_SIZE ?= 12x12
+MULTIPLE_MINES_GRID_SIZE ?= 12x6
+GRID_SIZE ?= 12x6
 MINES ?= "[[0,0],[1,1]]"
 
 install:

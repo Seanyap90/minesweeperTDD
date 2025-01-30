@@ -1,6 +1,6 @@
 # Minesweeper Grid Generator
 
-A Python implementation of various Minesweeper grid generation algorithms with different configurations.
+A Python implementation of developing minesweeper application through test developments
 
 ## Prerequisites
 
@@ -84,8 +84,8 @@ make adjacent_grid GRID_SIZE=7x7
 
 ### Default Grid Sizes
 - Single '1' tests: 5x3
-- Multiple mines tests: 12x12
-- General grid operations: 12x12
+- Multiple mines tests: 12x6
+- General grid operations: 12x6
 
 ### Using run.sh Directly
 
@@ -120,3 +120,4 @@ make clean
 - Mine positions are specified as [[row1,col1],[row2,col2],...] (e.g., '[[0,0],[1,1]]')
 - The default grid size is 12x12 unless specified otherwise
 - All tests include visual grid output with -s flag enabled
+- main_v1.py and test_kata_v1.py for reference only
