@@ -55,8 +55,8 @@ make adjacent          # Adjacent mines tests
 3. Run tests with custom grid sizes:
 ```bash
 make ones SINGLE_ONE_GRID_SIZE=5x3
-make revised MULTIPLE_MINES_GRID_SIZE=12x12
-make adjacent MULTIPLE_MINES_GRID_SIZE=10x10
+make revised MULTIPLE_MINES_GRID_SIZE=12x6
+make adjacent MULTIPLE_MINES_GRID_SIZE=12x6
 ```
 
 ### Direct Grid Generation
